@@ -215,6 +215,18 @@ declare global {
     threshold: number;
     changePercent?: number;
   };
+
+  type FormattedArticle = {
+    id: number | string;
+    headline: string;
+    summary: string;
+    source: string;
+    url: string;
+    datetime: number;
+    image: string;
+    category: string;
+    related: string;
+  };
 }
 
 export {};
